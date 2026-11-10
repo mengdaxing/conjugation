@@ -1,0 +1,38 @@
+.DS_Store
+build/
+dist/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.ipa
+*.app
+*.dSYM
+*.xcresult
+*.log
+
+# SwiftPM and Android build output
+.build/
+.swiftpm/
+.gradle/
+Android/.gradle/
+Android/.kotlin/
+Android/app/build/
+Android/local.properties
+Android/app/keystore.jks
+Android/app/keystore.properties
+*.apk
+*.aab
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local credentials and signing material (Skip.env is shared app metadata)
+.env
+.env.*
+*.jks
+*.keystore
+keystore.properties
+*.p12
+*.pfx
+*.mobileprovision
